@@ -1,0 +1,323 @@
+* {
+   font-family: "Noto Sans KR", sans-serif;
+   list-style: none;
+   text-decoration: none;
+   border-collapse: collapse;
+   margin: 0px;
+   padding: 0px;
+   color: black
+}
+
+.header{
+    display: flex;
+    height:86px;
+    width:1280px;
+    margin:auto;
+    
+}
+
+.teckit{
+    width:150px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 80px;
+   
+}
+
+.nav > li{
+    margin-left:40px;
+    font-weight: 600;
+}
+
+.orange_teckit{
+    color: rgb(255, 115, 0);
+}
+
+.login{
+    margin-left: 280px;
+    line-height: 80px;
+    
+}
+
+.photo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(252, 241, 229);
+    font-size:0;
+}
+
+.school_pic{
+    width:1250px;
+    margin:auto;
+}
+
+.orange{
+    font-weight:500;
+    color:rgb(255, 115, 0);
+}
+
+.text1{
+    margin-left: 210px;
+}
+
+.text2{
+    margin-left: 210px;
+}
+
+.row1{
+    
+    display: flex;        /*마우스 커서가 블록마다 따로 되게 하고 싶으면 justify-content말고 margin 사용?*/
+    flex-direction: row;
+    width:1280px;
+    margin:auto;
+    justify-content: flex-start;
+}
+
+.blockchain{
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+.frontend_school{
+
+    margin-top: 50px;
+   
+}
+
+.purple_cube{
+    width:350px;
+   
+    font-size:0;
+}
+
+.blue_file{
+    width:350px;
+    
+    font-size:0;
+}
+
+.cube_pic{
+    border-radius: 5%;
+}
+
+.file_pic{
+    border-radius: 5%;
+}
+
+.recruit{
+    text-align: center;
+    width:50px;
+    height:30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color:blue;
+    border-radius: 15%;
+    
+}
+
+.blue{
+    font-size: 15px;
+    font-weight:400;
+    color: blue;
+    margin-top: 3px;;
+}
+
+.date{
+    opacity: 0.5;
+}
+
+.photo2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:0;
+}
+
+.calender_pic{
+    width:1250px;
+    margin:auto;
+}
+
+.row2{
+    
+    display: flex;
+    flex-direction: row;
+    width:1280px;
+    margin:auto;
+    justify-content: space-evenly;
+}
+
+.ios{
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+.android{
+    margin-top: 50px;
+   
+}
+
+.data{
+    margin-top: 50px;
+}
+
+.design{
+    margin-top: 50px;
+}
+
+.purple_ios{
+    width:350px;
+   
+    font-size:0;
+}
+
+.purple_android{
+    width:350px;
+    
+    font-size:0;
+}
+
+.mint_data{
+    width:350px;
+    
+    font-size:0;
+}
+
+.pink_design{
+    width:350px;
+    
+    font-size:0;
+}
+
+.ios_pic{
+    border-radius: 5%;
+}
+
+.android_pic{
+    border-radius: 5%;
+}
+
+.data_pic{
+    border-radius: 5%;
+}
+
+.design_pic{
+    border-radius: 5%;
+}
+
+.row3{
+    
+    display: flex;
+    flex-direction: row;
+    width:1280px;
+    margin:auto;
+    justify-content: flex-start;
+}
+
+.frontend_plus{
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+.backend_plus{
+    margin-top: 50px;
+   
+}
+
+.blue_file_plus{
+    width:350px;
+   
+    font-size:0;
+}
+
+.green_book{
+    width:350px;
+    
+    font-size:0;
+}
+
+.frontend_pic{
+    border-radius: 5%;
+}
+
+.backend_pic{
+    border-radius: 5%;
+}
+
+.advance_notice{
+    text-align: center;
+    width:90px;
+    height:30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color:green;
+    border-radius: 12%;
+}
+
+.green{
+    font-size: 15px;
+    font-weight:400;
+    color: green;
+    margin-top: 3px;;
+}
+
+.select{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text4{
+    margin-left: 210px;
+   
+}
+
+.text5{
+    margin-left: 30px;
+    opacity: 0.5;
+}
+
+.line{
+    width:1220px;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.text6{
+    margin-left: 210px;
+}
+
+.select_class{
+    border: 0.2px solid #c4c4c4;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:1250px;
+    margin:auto;
+}
+
+.smallbox{
+    border: 0.2px solid #c4c4c4;
+    border-radius: 10px;
+    width: auto;
+    padding: 15px;
+    margin: 10px;
+    font-size: 17px;
+}
+
+/*img {
+    display: block;
+    margin: 0 auto;
+  }*/
