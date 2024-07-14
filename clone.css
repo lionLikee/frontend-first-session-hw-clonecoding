@@ -13,6 +13,7 @@
     height:86px;
     width:1280px;
     margin:auto;
+    flex-direction: row;
     
 }
 
